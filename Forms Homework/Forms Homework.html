@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Homework- HTML Forms" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Кире Хаџиев" />
+        <meta name="keywords" content="HTML, Form" />
+    <title>Form Homework- Kire Hadziev</title>
+    </head>
+    <body>
+        <header><h1>Forms Homework</h1></header>
+        <nav>
+            <a href="https://github.com/KireHadziev?tab=repositories"></a>
+            <a href="google.com"></a>
+            <footer><a href="https://github.com/KireHadziev?tab=repositories"></a></footer>
+        </nav>
+        <p><b>Sign up your information</b></p>
+        <form>
+            <label for="">Full Name</label><br>
+            <input type="text"><br>
+            <label for="">Email</label><br>
+            <input type="text"><br>
+            <label for="">Password</label><br>
+            <input type="password"><br>
+<tr>
+    <td>
+        Gender:
+    </td>
+    <td>
+<select>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <!-- Genderot cisto da bide pointeresno vekje koga se stava sekakvi informacii -->
+</select>
+    </td>
+</tr>
+<div>
+
+    <label>Age group <abbr title="required" aria-label="required">*</abbr> :</label>
+
+    <input type="radio" name="sgroup" id="0-18" value="0-18" required>
+
+    <label for="0-18">0-18</label>
+
+    <input type="radio" name="sgroup" id="18-64" value="18-64" required>
+
+    <label for="18-64">18-64</label>
+
+    <input type="radio" name="sgroup" id="64+" value="64+" required>
+
+    <label for="64+">64+</label>
+
+  </div>
+  <div>
+
+    <label for="City">City <br>
+
+    <select name="grad" id="grad" required>
+      <option value="Skopje">Skopje</option>
+      <option value="Kumanovo">Kumanovo</option>
+      <option value="Tetovo">Tetovo</option>
+      <option value="Veles">Veles</option>
+      <option value="Shtip">Shtip</option>
+      <option value="Prilep">Prilep</option>
+      <option value="Ohrid">Ohrid</option>
+      <option value="Bitola">Bitola</option>
+      <option value="Strumica">Strumica</option>
+    </div>
+    <br>
+        <h3>Transportation vehnicle</h3>
+        <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bus">
+        <label for="vehicle1"> Bus</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Train">
+        <label for="vehicle3"> Train</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Bicycle">
+        <label for="vehicle2"> Bicycle</label><br>
+    </form> <br>
+    <input type="submit" value="Submit">
+        </form>
+    </body>
+    </html>
